@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<html style="scroll-behavior: smooth;">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text To Speech </title>
+    <link rel="stylesheet" href="ttsme3.css">
+    <link rel="icon" href="https://t4.ftcdn.net/jpg/04/32/49/15/360_F_432491528_irEbKPjzRmB7i3DwsXBROttcncaIJgcs.jpg" type="image/icon type">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+
+      <header class="bg-info" style="position: fixed;width: 100%;z-index:1;">
+      <div class="row text-white" >
+          <div class="col-md-6 col-9 p-1 pl-4">
+              <h3>TEXT TO SPEECH CONVERTER</h3>
+          </div>
+          <div class="col-md-6 col-9">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              
+              <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#home-sec">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#info-sec">info</a>
+                      <a class="dropdown-item" href="#converter-sec">converter</a>
+                      
+                      
+                    </div>
+                  </li>
+                 
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" id="text-form" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" id="text-search" onclick="searchClick()" type="submit">Search</button>
+                </form>
+                <script>
+                var searchClick = function() {
+                  var text = document.getElementById("text-form").value;
+                  // alert(text);
+                  window.location.replace() = "www.<some-url>" + text;
+              }
+              </script>
+              </div>
+            </nav>
+          </div>
+
+      </div>
+
+
+
+
+      </header>
+  
+        
+
+<div class="main1 "  id="home-sec" >
+    <img class ="pic img-fluid"src="1.jpg" >
+
+</div>
+
+
+  <section class="bg-secondary pl-4 pb-10"  style="height: 40em;padding-top: 3em;"   id="info-sec">
+      <div class="container">
+        <h1 class="text-centre" style="font-weight: bolder;">INFO</h1>
+        <div class="row ">
+          <div class="col-md-4">
+            <a href="https://www.readingrockets.org/topics/assistive-technology/articles/text-speech-technology-what-it-and-how-it-works"  style="text-decoration: none;color: rgb(0, 130, 124);">
+            <div class="card text-centre p-3" style="width: 18rem;margin-top: 2em;height:22em; border-color: rgb(0, 130, 124);border-width: .3em;">
+              <img class="card-img-top display-1 text-info" src="https://t3.ftcdn.net/jpg/04/05/87/82/360_F_405878284_KvaxI8jDzhF5IO2AR4au8nFXYbiL4qSE.jpg" alt="">
+              <div class="card-body" >
+                <h5 class="card-title">REFERENCE</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a href="https://www.readingrockets.org/topics/assistive-technology/articles/text-speech-technology-what-it-and-how-it-works" style="text-decoration: none;color:rgb(0, 130, 124);">
+            <div class="card text-centre p-3" style="width: 18rem;margin-top: 2em;height:22em;border-color: rgb(0, 130, 124);border-width: .3em" >
+              <img class="card-img-top display-1 text-info" src="https://cdn-res.keymedia.com/cms/images/us/037/0223_637242926815337822.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">WORKING</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card text-centre p-3" style="width: 18rem;margin-top: 2em;height:22em;border-color: rgb(0, 130, 124);border-width: .3em;">
+              <img class="card-img-top display-1 text-info" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxCiGeDHS1q7iHt2BojdCiRUumk9YkO3h1okT7tCQAHQ&s" alt="">
+              <div class="card-body">
+                <h5 class="card-title">USAGE</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+
+  </section class=inner>
+  
+        
+ 
+  
+            
+  <div class="inner2" id="converter-sec">
+    
+      
+
+    <h1 id="tts"><strong>TEXT TO SPEECH</strong></h1>
+    <div>
+      
+      <label class="txt">ENTER TEXT</label>
+      <textarea class="txt1" id="text2" name="text" placeholder="type here...."></textarea>
+    </div>
+    
+    <div>
+      <form action="/action_page.php">
+        <input type="file" id="myFile" name="filename">
+        <input type="submit">
+      </form>
+
+    </div>
+    <div class="voi">
+      <select name="voice" id="voices">
+        <option value="">Select A Voice</option>
+      </select>
+     <label for="rate">Rate:</label>
+    <input name="rate" type="range" min="0" max="3" value="1" step="0.1">
+
+    <label for="pitch">Pitch:</label>
+
+    <input name="pitch" type="range" min="0" max="2" step="0.1">
+    </div>
+    
+    <div class="pl-10">
+      <button class="btn" id="speak" >CONVERT</button>
+      <button class="btn pl-10" id="stop" >STOP</button>
+      <button class="btn">SAVE</button>
+    </div>
+  </div>
+ 
+  
+
+
+
+</section>
+
+
+<script>
+  const msg = new SpeechSynthesisUtterance();
+  let voices = [];
+  const voicesDropdown = document.querySelector('[name="voice"]');
+  const options = document.querySelectorAll('[type="range"], [name="text"]');
+  const speakButton = document.querySelector('#speak');
+  const stopButton = document.querySelector('#stop');
+
+  msg.text = document.querySelector('[name="text"]').value;
+
+  function populateVoices() {
+    voices = this.getVoices();
+    const voiceOptions = voices
+    .filter(voice => voice.lang.includes('en'))
+    .map(voice => `<option value="${voice.name}">${voice.name} (${voice.lang})</option>)`)
+    .join('');
+    voicesDropdown.innerHTML = voiceOptions;
+    
+  }
+
+  function setVoice() {
+    msg.voice = voices.find(voice => voice.name === this.value);
+    toggle();
+  }
+
+  function toggle(startOver = true) {
+    speechSynthesis.cancel();
+    if (startOver) {
+    speechSynthesis.speak(msg);
+    }
+  }
+
+  function setOption() {
+    console.log(this.name, this.value);
+    msg[this.name] = this.value;
+    toggle();
+  }
+
+  voicesDropdown.addEventListener('change', setVoice);
+  speechSynthesis.addEventListener('voiceschanged', populateVoices);
+  options.forEach(option => option.addEventListener('change', setOption));
+  speakButton.addEventListener('click', toggle);
+  stopButton.addEventListener('click', () => toggle(false));
+</script>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+    </html>
